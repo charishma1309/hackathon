@@ -1,0 +1,86 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width:100%;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    background-image: url(./assests/6f7c63991726d61d63730682e791d78c.gif);
+    background-size: cover;
+}
+nav{
+    height:85px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.name{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+hr{
+    background-color:  rgb(45, 135, 213);
+    border: 2px solid  rgb(45, 135, 213);
+
+}
+span{
+    color:rgb(45, 135, 213);
+}
+li{
+    list-style:none;
+    font-size: 25px;
+    padding:20px;
+
+}
+.ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:35px;
+}
+
+.heading{
+    font-size: 35px;
+    font-weight: 500;
+    color:rgb(45, 135, 213) ;
+}
+section{
+    height:90vh;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.img{
+    height:350px;
+    width:250px;
+    margin:30px;
+    padding:60px;
+    margin-left: 50px;
+    border-radius:20px;
+}
+.left-section{
+    padding:60px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sub{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:white;
+}
+.sub:hover{
+    font-size:30px;
+    color:rgb(45, 135, 213);
+}
